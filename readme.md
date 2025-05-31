@@ -26,10 +26,6 @@ semantic-dynamics-llm/
 ├── data/                     # Data directory
 │   └── README.md             # Data description
 ├── main.py                   # Main script to run the experiment pipeline
-├── notebooks/                # Jupyter notebooks for exploration and visualization
-│   ├── analisi.ipynb         # Analysis notebook
-│   ├── coppie.ipynb          # Pair generation and spreading activation notebook
-│   └── generazione_grafo.ipynb  # Graph generation notebook
 ├── README.md                 # This file
 ├── requirements.txt          # Project dependencies
 └── src/                      # Source code
@@ -45,7 +41,7 @@ semantic-dynamics-llm/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/semantic-dynamics-llm.git
+git clone https://github.com/lorenzoattolico/semantic-dynamics-llm.git
 cd semantic-dynamics-llm
 
 # Create a virtual environment (optional)
@@ -97,18 +93,6 @@ The analysis produces various visualizations:
 3. Effect of retention rate and time steps on activation patterns
 4. Relationship between network path length and similarity ratings
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```
-@article{attolico2025semantic,
-  title={Semantic Dynamics in LLMs: Spreading Activation and Similarity Judgments},
-  author={Attolico, Lorenzo Domenico},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
 
 ## License
 
