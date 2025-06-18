@@ -22,19 +22,19 @@ This study investigates whether spreading activation, a classical cognitive theo
 
 ```
 semantic-dynamics-llm/
-├── config.py                 # Configuration parameters
-├── data/                     # Data directory
-│   └── README.md             # Data description
-├── main.py                   # Main script to run the experiment pipeline
-├── README.md                 # This file
-├── requirements.txt          # Project dependencies
-└── src/                      # Source code
-    ├── __init__.py           # Package initialization
-    ├── analysis.py           # Analysis and visualization code
-    ├── graph_generator.py    # Semantic network generation
-    ├── similarity_evaluator.py  # Likert score evaluation using LLM
-    ├── spreading_activation.py  # Spreading activation algorithm
-    └── utils.py              # Utility functions
+├── config.py                     # Configuration parameters
+├── data/                         # Data directory
+│   └── README.md                 # Data description
+├── main.py                       # Main script to run the experiment pipeline
+├── README.md                     # This file
+├── requirements.txt              # Project dependencies
+└── src/                          # Source code
+    ├── __init__.py               # Package initialization
+    ├── analysis.py               # Analysis and visualization code
+    ├── graph_generator.py        # Semantic network generation
+    ├── similarity_evaluator.py   # Likert score evaluation using LLM
+    ├── spreading_activation.py   # Spreading activation algorithm
+    └── utils.py                  # Utility functions
 ```
 
 ## Installation
